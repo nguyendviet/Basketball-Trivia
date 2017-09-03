@@ -1,0 +1,88 @@
+body {
+	background-image: url(../images/background.png);
+}
+
+img {
+	width: 80%;
+	min-width: 160px;
+	max-width: 400px;
+}
+
+.container {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+}
+
+.gameBoard {
+	background-color: rgba(255, 255, 255, 0.75);
+	margin-top: 5%;
+	padding: 20px 0;
+	border: 5px solid #f04940;
+	height: 100%;
+}
+
+.timer {
+	height: 80px;
+	width: 80px;
+	color: red;
+	margin: 0 auto;
+	font-size: 60px;
+	vertical-align: middle;
+	line-height: 80px;
+}
+
+.options {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.option:hover {
+	background-color: #f47871;
+}
+
+.start {
+	margin-top: 100px;
+}
+
+.button {
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 5px solid #f04940;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 30px;
+	padding: 0 10px;
+}
+
+.button:hover {
+	background-color: #f04940;
+	color: white;
+}
+
+.red {
+	font-weight: bold;
+	color: red;
+}
+
+.orange {
+	font-weight: bold;
+	color: orange;
+}
+
+.green {
+	font-weight: bold;
+	color: green;
+}
+
+.copyright {
+	color: #f04940;
+	font-size: 14px;
+	margin-top: 10px;
+	line-height: 0px;
+}
+
+@media only screen and (min-width: 1024px) {
+	body {
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
